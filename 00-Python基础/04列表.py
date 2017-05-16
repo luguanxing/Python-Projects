@@ -4,7 +4,12 @@ print(list)
 print("\n")
 
 list.append(55)
-print("list.append(5)")
+print("list.append(55)")
+print(list)
+print("\n")
+
+list.append(55)
+print("list.append(55)")
 print(list)
 print("\n")
 
@@ -99,4 +104,3 @@ print("listp="+str(listp))
 print("listc="+str(listc))
 
 del list
-
