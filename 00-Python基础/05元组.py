@@ -9,7 +9,7 @@ print(tuple1[:5])
 print("\n")
 
 tuple2 = 1,2,3
-print("tuple2 = 1,2,3,4")
+print("tuple2 = 1,2,3")
 print(tuple2)
 print("\n")
 
