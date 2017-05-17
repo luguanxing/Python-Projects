@@ -53,3 +53,8 @@ print("dict1.pop('a') = "+str(dict1.pop('a')));
 print("dict1="+str(dict1));
 print();
 
+
+dict1.update(b="haha");
+dict1.update(x="666");
+print("dict1="+str(dict1));
+print();
