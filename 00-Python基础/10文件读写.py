@@ -34,11 +34,6 @@ split_file(txt);
 
 txt.close();
 
-##################新建test.txt文件#################
-test = open("write.txt", "a");
-test.write("haha!\n");
-test.close();
-
 
 
 
