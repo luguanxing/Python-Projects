@@ -8,7 +8,7 @@ def test1():
     except TypeError as reason:
         print("文件类型错误! 原因："+str(reason));
     finally:
-        if ('f' in dir()):
+        if ('f' in dir()):  #注意判断变量是否创建且存在
             f.close();
     print();
 
