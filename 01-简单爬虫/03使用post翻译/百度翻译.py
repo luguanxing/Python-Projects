@@ -30,5 +30,4 @@ while True:
     index1 = html.index('"dst":"')
     index2 = html.index(',"src"');
     print(html[index1+7: index2-1]);
-    time.sleep(5);
 
