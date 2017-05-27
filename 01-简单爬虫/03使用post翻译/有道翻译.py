@@ -36,5 +36,4 @@ while True:
     print(data["smartResult"]["entries"][1]);
     print("===============");
     print("");
-    time.sleep(5);
 
