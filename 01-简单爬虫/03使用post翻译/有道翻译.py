@@ -25,7 +25,7 @@ while True:
     data['action'] = 'FY_BY_CLICKBUTTON';
     data['typoResult'] = 'true';
     data = parse.urlencode(data).encode('utf-8');
-    req = request.Request(url, data);
+    req = request.Request(url, data, header);
     response = request.urlopen(req);
     html = response.read().decode('utf-8');
 
@@ -36,4 +36,3 @@ while True:
     print(data["smartResult"]["entries"][1]);
     print("===============");
     print("");
-
